@@ -1,23 +1,25 @@
 import reflex as rx
 
-from JeroDev.Styles.styles import EmSize, Size
-from JeroDev.Styles.styles import IMAGE_HEIGHT
+from JeroDev.Styles.styles import IMAGE_HEIGHT, Size
+from JeroDev.data import Extra
 
-def card_detail() -> rx.Component:
+def card_detail(extra: Extra) -> rx.Component:
     return rx.card(
         rx.inset(
             rx.image(
-                src="favicon.ico",
+                src=extra.image,
                 height=IMAGE_HEIGHT,
                 width="100%",
-                border_radius=EmSize.DEFAULT.value
+                object_fit="cover"
             ),
             pb=Size.DEFAULT.value
         ),
+        rx.text.strong(extra.title),
         rx.text(
-            "Description of the project.",
-            Size=Size.SMALL.value,
+            extra.description,
+            size=Size.SMALL.value,
             color_scheme="gray"
         ),
-        width="100%"
+        width="100%",
+        on_click=rx.redirect(extra.url, True)
     )

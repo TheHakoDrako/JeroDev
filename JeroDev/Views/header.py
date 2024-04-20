@@ -3,19 +3,23 @@ import reflex as rx
 from JeroDev.Components.heading import heading
 from JeroDev.Styles.styles import Size
 from JeroDev.Components.media import media
+from JeroDev.data import Data
 
-def header() -> rx.Component:
+def header(data: Data) -> rx.Component:
     return rx.hstack(
-        rx.avatar(size=Size.BIG.value, src="https://avatars.githubusercontent.com/u/72213815?v=4"),
+        rx.avatar(
+            src=data.avatar,
+            size=Size.BIG.value
+        ),
         rx.vstack(
-            heading("Nombre", h1=True),
-            heading("Habilidad principal"),
+            heading(data.name, True),
+            heading(data.title),
             rx.text(
                 rx.icon("map-pin"),
-                "Localización",
+                data.location,
                 display="inherit"
             ),
-            media(),
+            media(data.media),
             spacing=Size.SMALL.value
         ),
         spacing=Size.DEFAULT.value,

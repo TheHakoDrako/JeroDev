@@ -1,13 +1,21 @@
 import reflex as rx
 
+from JeroDev.data import Info
 from JeroDev.Components.heading import heading
 from JeroDev.Components.info_detail import info_detail
 from JeroDev.Styles.styles import Size
 
-def info(tittle: str) -> rx.Component:
+def info(tittle: str, info: list[Info]) -> rx.Component:
     return rx.vstack(
         heading(tittle),
-        info_detail(),
+        rx.vstack(
+            *[
+                info_detail(item)
+                for item in info
+            ],
+            spacing=Size.DEFAULT.value,
+            width="100%"
+        ),
         spacing=Size.DEFAULT.value,
         width="100%"
     )

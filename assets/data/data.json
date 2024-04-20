@@ -1,0 +1,121 @@
+{
+    "avatar": "/favicon.ico",
+    "name": "Jeronimo Ramirez Mejia",
+    "title": "Habilidad principal",
+    "location": "Localizacion",
+    "media": {
+        "email": "email@gmail.com",
+        "cv": "/data/cv.pdf",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+    },
+    "about": "Descripcion",
+    "technologies": [
+        {
+            "icon": "devicon-devicon-plain",
+            "name": "Tecnologia"
+        },
+        {
+            "icon": "devicon-devicon-plain",
+            "name": "Tecnologia"
+        },
+        {
+            "icon": "devicon-devicon-plain",
+            "name": "Tecnologia"
+        }
+    ],
+    "experience": [
+        {
+            "icon": "box-select",
+            "title": "Titulo",
+            "subtitle": "subtitulo",
+            "description": "Descripcion",
+            "date": "Años"
+        },
+        {
+            "icon": "box-select",
+            "title": "Titulo",
+            "subtitle": "subtitulo",
+            "description": "Descripcion",
+            "date": "Años"
+        }
+    ],
+    "projects": [
+        {
+            "icon": "box-select",
+            "title": "Titulo",
+            "subtitle": "subtitulo",
+            "description": "Descripcion",
+            "technologies": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Tecnologia"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Tecnologia"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Tecnologia"
+                }
+            ],
+            "image": "/favicon.ico",
+            "url": "https://google.com",
+            "github": "https://github.com"
+        },
+        {
+            "icon": "box-select",
+            "title": "Titulo",
+            "subtitle": "subtitulo",
+            "description": "Descripcion",
+            "technologies": [
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Tecnologia"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Tecnologia"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Tecnologia"
+                }
+            ],
+            "image": "/favicon.ico",
+            "url": "https://google.com",
+            "github": "https://github.com"
+        }
+    ],
+    "training": [
+        {
+            "icon": "box-select",
+            "title": "Titulo",
+            "subtitle": "subtitulo",
+            "description": "Descripcion",
+            "date": "Años",
+            "certificate": "https://google.com"
+        }
+    ],
+    "extras": [
+        {
+            "image": "/favicon.ico",
+            "title": "Titulo",
+            "description": "Descripcion",
+            "url": ""
+        },
+        {
+            "image": "/favicon.ico",
+            "title": "Titulo",
+            "description": "Descripcion",
+            "url": ""
+        },
+        {
+            "image": "/favicon.ico",
+            "title": "Titulo",
+            "description": "Descripcion",
+            "url": ""
+        }
+    ]
+}
