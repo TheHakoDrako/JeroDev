@@ -33,6 +33,7 @@ def index() -> rx.Component:
         )
     )
 
+
 app = rx.App(
     stylesheets=STYLES_SHEET,
     style=BASE_STYLE,
@@ -41,4 +42,30 @@ app = rx.App(
         radius="large"
     )
 )
-app.add_page(index)
+
+
+title = DATA.title
+description = DATA.description
+image = DATA.image
+
+
+app.add_page(
+    index,
+    title=title,
+    description=description,
+    image=image,
+    meta=[
+        {
+            "name": "og:title",
+            "content": title
+        },
+        {
+            "name": "og:description",
+            "content": description
+        },
+        {
+            "name": "og:image",
+            "content": image
+        }
+    ]
+)

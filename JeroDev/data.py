@@ -33,10 +33,13 @@ class Extra:
         self.url = url
                 
 class Data:
-    def __init__(self, avatar, name, title, location, media, about, technologies, experience, projects, training, extras):
+    def __init__(self, title, description, image, avatar, name, skill, location, media, about, technologies, experience, projects, training, extras):
+        self.title = title
+        self.description = description
+        self.image = image
         self.avatar = avatar
         self.name = name
-        self.title = title
+        self.skill = skill
         self.location = location
         self.media = Media(**media)
         self.about = about

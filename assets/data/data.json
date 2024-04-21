@@ -1,13 +1,17 @@
 {
-    "avatar": "/favicon.ico",
-    "name": "Jeronimo Ramirez Mejia",
-    "title": "Habilidad principal",
-    "location": "Localizacion",
+    "title": "Jero Rm | Portafolio",
+    "description": "Bienvenido a mi portafolio personal, aquí encontrarás información sobre mi experiencia, proyectos y habilidades.",
+    "image": "devicon-devicon-plain",
+
+    "avatar": "/avatar.png",
+    "name": "Jeronimo Ramírez Mejía",
+    "skill": "Economist & Developer.",
+    "location": "Colombia",
     "media": {
         "email": "email@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
+        "github": "https://github.com/TheHakoDrako",
+        "linkedin": "https://www.linkedin.com/in/jeronimo-ramirez-mejia/"
     },
     "about": "Descripcion",
     "technologies": [
