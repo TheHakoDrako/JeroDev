@@ -1,6 +1,7 @@
 from enum import Enum
 import reflex as rx
 
+
 MAX_WIDTH = "900px"
 IMAGE_HEIGHT = "200px"
 
@@ -23,8 +24,24 @@ STYLESHEETS = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
 ]
 
+
 BASE_STYLE = {
     rx.button: {
         "--cursor-button": "pointer"
     }
+}
+
+PRELOADER = {
+    rx.center: {
+        "--preloader-size": "100px",
+        "--preloader-color": "var(--text-color)"
+    }
+}
+
+circular_progress_style = {
+    "color": "white", 
+    "size": "120px", 
+    "thickness": "8px", 
+    "track_color": "gray",
+    "cap_is_round": True
 }
