@@ -31,13 +31,6 @@ BASE_STYLE = {
     }
 }
 
-PRELOADER = {
-    rx.center: {
-        "--preloader-size": "100px",
-        "--preloader-color": "var(--text-color)"
-    }
-}
-
 circular_progress_style = {
     "color": "white", 
     "size": "120px", 
