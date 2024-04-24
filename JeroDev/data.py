@@ -1,19 +1,22 @@
 import json
 
+
 class Media:
-    def __init__(self, email, cv, github, linkedin):
+    def __init__(self, email, cv, github, likedin):
         self.email = email
         self.cv = cv
         self.github = github
-        self.linkedin = linkedin
+        self.likedin = likedin
+
 
 class Technology:
     def __init__(self, icon, name):
         self.icon = icon
         self.name = name
 
+
 class Info:
-    def __init__(self, icon, title, subtitle, description, date = "", certificate = "", technologies = [], image = "", url = "", github = ""):
+    def __init__(self, icon, title, subtitle, description, date="", certificate="", technologies=[], image="", url="", github=""):
         self.icon = icon
         self.title = title
         self.subtitle = subtitle
@@ -24,16 +27,34 @@ class Info:
         self.image = image
         self.url = url
         self.github = github
-        
+
+
 class Extra:
     def __init__(self, image, title, description, url):
         self.image = image
         self.title = title
         self.description = description
         self.url = url
-                
+
+
 class Data:
-    def __init__(self, title, description, image, avatar, name, skill, location, media, about, technologies, experience, projects, training, extras):
+    def __init__(
+        self,
+            title,
+            description,
+            image,
+            avatar,
+            name,
+            skill,
+            location,
+            media,
+            about,
+            technologies,
+            experience,
+            projects,
+            training,
+            extras
+    ):
         self.title = title
         self.description = description
         self.image = image
@@ -48,9 +69,9 @@ class Data:
         self.projects = [Info(**info) for info in projects]
         self.training = [Info(**info) for info in training]
         self.extras = [Extra(**info) for info in extras]
-        
 
-with open("assets/data/data.json", encoding='utf-8') as file:
+
+with open("assets/data/data.json", encoding="utf-8") as file:
     json_data = json.load(file)
-    
+
 data = Data(**json_data)

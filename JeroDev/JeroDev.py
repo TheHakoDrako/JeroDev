@@ -1,5 +1,4 @@
 import reflex as rx
-
 from JeroDev import data
 from JeroDev.Styles.styles import MAX_WIDTH, EmSize, Size, BASE_STYLE, STYLES_SHEET
 from JeroDev.Views.header import header
@@ -34,21 +33,19 @@ def index() -> rx.Component:
         )
     )
 
-
 app = rx.App(
     stylesheets=STYLES_SHEET,
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
+        accent_color="grass",
         radius="full"
     )
 )
 
-
 title = DATA.title
 description = DATA.description
 image = DATA.image
-
 
 app.add_page(
     index,
@@ -56,17 +53,8 @@ app.add_page(
     description=description,
     image=image,
     meta=[
-        {
-            "name": "og:title",
-            "content": title
-        },
-        {
-            "name": "og:description",
-            "content": description
-        },
-        {
-            "name": "og:image",
-            "content": image
-        }
+        {"name": "og:title", "content": title},
+        {"name": "og:description", "content": description},
+        {"name": "og:image", "content": image}
     ]
 )
