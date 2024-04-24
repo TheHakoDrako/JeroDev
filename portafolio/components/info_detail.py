@@ -1,22 +1,22 @@
 import reflex as rx
+from portafolio.components.icon_badge import icon_badge
+from portafolio.components.icon_button import icon_button
+from portafolio.data import Info
+from portafolio.styles.styles import IMAGE_HEIGHT, EmSize, Size
 
-from JeroDev.data import Info
-from JeroDev.Components.icon_badge import icon_badge
-from JeroDev.Styles.styles import Size, EmSize, IMAGE_HEIGHT
-from JeroDev.Components.icon_button import icon_button
 
 def info_detail(info: Info) -> rx.Component:
     return rx.flex(
         rx.hstack(
             icon_badge(info.icon),
             rx.vstack(
-                rx.text.strong(info.title, h1=True),
-                rx.text.kbd(info.subtitle),
+                rx.text.strong(info.title),
+                rx.text(info.subtitle),
                 rx.text(
                     info.description,
                     size=Size.SMALL.value,
                     color_scheme="gray"
-                    ),
+                ),
                 rx.cond(
                     info.technologies,
                     rx.flex(
@@ -29,7 +29,7 @@ def info_detail(info: Info) -> rx.Component:
                             for technology in info.technologies
                         ],
                         wrap="wrap",
-                        spacing=Size.SMALL.value,
+                        spacing=Size.SMALL.value
                     )
                 ),
                 rx.hstack(

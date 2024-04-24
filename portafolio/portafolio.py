@@ -1,30 +1,30 @@
 import reflex as rx
-from JeroDev import data
-from JeroDev.Styles.styles import MAX_WIDTH, EmSize, Size, BASE_STYLE, STYLES_SHEET
-from JeroDev.Views.header import header
-from JeroDev.Views.about import about
-from JeroDev.Views.tech_stack import tech_stack
-from JeroDev.Views.info import info
-from JeroDev.Views.extra import extra
-from JeroDev.Views.footer import footer
+from portafolio import data
+from portafolio.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size
+from portafolio.views.about import about
+from portafolio.views.extra import extra
+from portafolio.views.footer import footer
+from portafolio.views.header import header
+from portafolio.views.info import info
+from portafolio.views.tech_stack import tech_stack
 
 DATA = data.data
+
 
 def index() -> rx.Component:
     return rx.center(
         # rx.theme_panel(),
         rx.vstack(
             header(DATA),
-            rx.divider(),
             about(DATA.about),
             rx.divider(),
             tech_stack(DATA.technologies),
             info("Experiencia", DATA.experience),
             info("Proyectos", DATA.projects),
-            info("Formacion", DATA.training),
+            info("Formación", DATA.training),
             extra(DATA.extras),
             rx.divider(),
-            footer(DATA.media),    
+            footer(DATA.media),
             spacing=Size.MEDIUM.value,
             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,
@@ -33,8 +33,9 @@ def index() -> rx.Component:
         )
     )
 
+
 app = rx.App(
-    stylesheets=STYLES_SHEET,
+    stylesheets=STYLESHEETS,
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",

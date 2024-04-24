@@ -1,8 +1,8 @@
 import reflex as rx
+from portafolio.components.icon_button import icon_button
+from portafolio.data import Media
+from portafolio.styles.styles import Size
 
-from JeroDev.Components.icon_button import icon_button
-from JeroDev.Styles.styles import Size
-from JeroDev.data import Media
 
 def media(data: Media) -> rx.Component:
     return rx.flex(
@@ -14,16 +14,16 @@ def media(data: Media) -> rx.Component:
         ),
         rx.hstack(
             icon_button(
+                "file-text",
+                data.cv
+            ),
+            icon_button(
                 "github",
                 data.github
             ),
             icon_button(
                 "linkedin",
-                data.linkedin
-            ),
-            icon_button(
-                "file-text",
-                data.cv
+                data.likedin
             ),
             spacing=Size.SMALL.value
         ),

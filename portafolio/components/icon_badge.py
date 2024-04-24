@@ -1,6 +1,7 @@
 import reflex as rx
 
-from JeroDev.Styles.styles import Size
+from portafolio.styles.styles import EmSize
+
 
 def icon_badge(icon: str) -> rx.Component:
     return rx.badge(
@@ -8,6 +9,6 @@ def icon_badge(icon: str) -> rx.Component:
             icon,
             size=32
         ),
-        aspect_ratio = "1",
+        aspect_ratio="1",
         variant="soft"
     )

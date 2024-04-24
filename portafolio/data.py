@@ -2,11 +2,11 @@ import json
 
 
 class Media:
-    def __init__(self, email, cv, github, linkedin):
+    def __init__(self, email, cv, github, likedin):
         self.email = email
         self.cv = cv
         self.github = github
-        self.linkedin = linkedin
+        self.likedin = likedin
 
 
 class Technology:
@@ -71,7 +71,7 @@ class Data:
         self.extras = [Extra(**info) for info in extras]
 
 
-with open("assets/data/data.json", encoding="utf-8") as file:
+with open("assets/data/data.json") as file:
     json_data = json.load(file)
 
 data = Data(**json_data)

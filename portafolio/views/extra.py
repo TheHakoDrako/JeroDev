@@ -1,9 +1,9 @@
 import reflex as rx
+from portafolio.components.card_detail import card_detail
+from portafolio.components.heading import heading
+from portafolio.data import Extra
+from portafolio.styles.styles import Size
 
-from JeroDev.Components.heading import heading
-from JeroDev.Components.card_detail import card_detail
-from JeroDev.Styles.styles import Size
-from JeroDev.data import Extra
 
 def extra(extras: list[Extra]) -> rx.Component:
     return rx.vstack(
