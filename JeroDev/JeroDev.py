@@ -16,6 +16,7 @@ def index() -> rx.Component:
         # rx.theme_panel(),
         rx.vstack(
             header(DATA),
+            rx.divider(),
             about(DATA.about),
             rx.divider(),
             tech_stack(DATA.technologies),
@@ -39,7 +40,7 @@ app = rx.App(
     style=BASE_STYLE,
     theme=rx.theme(
         appearance="dark",
-        radius="large"
+        radius="full"
     )
 )
 

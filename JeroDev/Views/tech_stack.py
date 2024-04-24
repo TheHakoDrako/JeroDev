@@ -6,21 +6,31 @@ from JeroDev.data import Technology
 
 def tech_stack(technologies: list[Technology]) -> rx.Component:
     return rx.vstack(
-        heading("Tecnologias"),
-        rx.flex(
-            *[
-                rx.badge(
-                rx.box(
-                    class_name=technology.icon,
-                    font_size="24px"
-                    ),
-                rx.text(technology.name),
-                size="1"
-                )
-                for technology in technologies
-            ],
-            wrap="wrap",
-            spacing=Size.SMALL.value
-        ),
-        spacing=Size.DEFAULT.value
+        rx.section(
+            heading("Tecnologias"),
+            rx.flex(
+                padding_top="15px",
+                *[
+                    rx.badge(
+                        rx.center(
+                            rx.box(
+                                class_name=technology.icon,
+                                font_size="22px",
+                                margin="1px",
+                                padding="1px"
+                                ),
+                            ),
+                        rx.text(technology.name),
+                        size="1",
+                        box_shadow="shadow"
+                    )
+                    for technology in technologies
+                ],
+                wrap="wrap",
+                spacing=Size.SMALL.value
+            ),
+            spacing=Size.DEFAULT.value,
+            padding_top="10px",
+            padding_bottom="15px"
+        )
     )

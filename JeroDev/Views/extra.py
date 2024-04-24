@@ -14,7 +14,7 @@ def extra(extras: list[Extra]) -> rx.Component:
                     card_detail(extra)
                     for extra in extras
                 ],
-                spacing=Size.DEFAULT.value,
+                spacing=Size.DEFAULT.value
             ),
             width="100%"
         ),
@@ -25,7 +25,7 @@ def extra(extras: list[Extra]) -> rx.Component:
                     for extra in extras
                 ],
                 spacing=Size.DEFAULT.value,
-                colums="3"
+                columns="3"
             ),
             width="100%"
         ),

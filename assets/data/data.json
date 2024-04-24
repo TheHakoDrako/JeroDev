@@ -1,7 +1,7 @@
 {
     "title": "Jero Rm | Web",
-    "description": "Bienvenido a mi portafolio personal, aquí encontrarás información sobre mi experiencia, proyectos y habilidades.",
-    "image": "/assets/logo.png",
+    "description": "Bienvenido a mi portafolio, aquí encontrarás información sobre mi experiencia, proyectos y habilidades.",
+    "image": "/avatar.png",
 
     "avatar": "/avatar.png",
     "name": "Jeronimo Ramírez Mejía",
@@ -13,7 +13,7 @@
         "github": "https://github.com/TheHakoDrako",
         "linkedin": "https://www.linkedin.com/in/jeronimo-ramirez-mejia/"
     },
-    "about": "Soy un economista y desarrollador de software apasionado por la tecnología y la economía. Me gusta aprender cosas nuevas y enfrentar desafíos. Actualmente me encuentro trabajando en proyectos de desarrollo y análisis de datos.",
+    "about": "Soy un economista y desarrollador de software apasionado por la tecnología y la economía. Me gusta aprender cosas nuevas y enfrentar desafíos. Actualmente me encuentro trabajando en proyectos de desarrollo y análisis de datos. Aquí encontrarás información sobre mi experiencia, proyectos y habilidades.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -25,7 +25,7 @@
         },
         {
             "icon": "devicon-matplotlib-plain",
-            "name": "Estadística"
+            "name": "R & Stata"
         },
         {
             "icon": "devicon-mysql-plain",
@@ -62,28 +62,28 @@
     ],
     "experience": [
         {
-            "icon": "box-select",
+            "icon": "briefcase-business",
             "title": "Asistente de proyectos",
             "subtitle": "Futurum Technology",
             "description": "Asesoré proyectos económicos y de ingeniería, realicé análisis de datos y transformación de bases de datos. Además, gestioné proyectos utilizando herramientas como API, Power BI y Excel.",
             "date": "Ago 2023 - Dic 2023"
         },
         {
-            "icon": "box-select",
+            "icon": "briefcase-business",
             "title": "Full Stack Developer",
             "subtitle": "GYMAPP",
             "description": "Trabajé en equipo utilizando GIT, desarrollando tanto el frontend como el backend con tecnologías como PHP, HTML, SASS y LARAVEL. Además, manejé bases de datos MySQL y estructura de datos.",
             "date": "Dic 2022 - May 2023"
         },
         {
-            "icon": "box-select",
+            "icon": "briefcase-business",
             "title": "Estudiante investigador y Auxiliar de docencia",
             "subtitle": "Universidad del Quindio",
             "description": "Realicé investigación en el programa de economía, así como análisis de datos y bases de datos utilizando Excel avanzado. También realicé prácticas en la Gobernación del Quindío.",
             "date": "Feb 2022 - May 2023"
         },
         {
-            "icon": "box-select",
+            "icon": "briefcase-business",
             "title": "Desarrollador junior",
             "subtitle": "SUNNEL 'GREETECH'",
             "description": "Trabajé en equipo utilizando GIT, actualicé código tanto en el frontend como en el backend. Además, contribuí al marketing y desarrollo de software que resultó en una eficiencia del 50%.",
@@ -92,7 +92,7 @@
     ],
     "projects": [
         {
-            "icon": "box-select",
+            "icon": "folder-input",
             "title": "Titulo",
             "subtitle": "subtitulo",
             "description": "Descripcion",
@@ -110,12 +110,12 @@
                     "name": "Tecnologia"
                 }
             ],
-            "image": "/favicon.ico",
+            "image": "database-backup",
             "url": "https://google.com",
             "github": "https://github.com"
         },
         {
-            "icon": "box-select",
+            "icon": "folder-input",
             "title": "Titulo",
             "subtitle": "subtitulo",
             "description": "Descripcion",
@@ -133,14 +133,14 @@
                     "name": "Tecnologia"
                 }
             ],
-            "image": "/favicon.ico",
+            "image": "database-backup",
             "url": "https://google.com",
             "github": "https://github.com"
         }
     ],
     "training": [
         {
-            "icon": "box-select",
+            "icon": "graduation-cap",
             "title": "Graduado investigador",
             "subtitle": "Universidad del Quindio",
             "description": "Obtuve el título de economista con mención de honor. Además, realicé investigaciones en el campo de la economía durante mi tiempo en la universidad.",
@@ -148,7 +148,7 @@
             "certificate": "https://www.uniquindio.edu.co/"
         },
         {
-            "icon": "box-select",
+            "icon": "app-window",
             "title": "Cursos en Platzi",
             "subtitle": "Platzi",
             "description": "Realizo varios cursos en Platzi para mejorar mis habilidades en diversas áreas, incluyendo programación, desarrollo web, análisis de datos, entre otros.",
@@ -156,7 +156,7 @@
             "certificate": "http://platzi.com/p/JeroRm/"
         },
         {
-            "icon": "box-select",
+            "icon": "app-window",
             "title": "Cursos en Udemy",
             "subtitle": "Udemy",
             "description": "Tomo cursos en Udemy para continuar mi formación en áreas específicas, complementando mi educación universitaria y adquiriendo nuevas habilidades técnicas.",
@@ -164,7 +164,7 @@
             "certificate": "https://ibmcsr.udemy.com/?next=%2Fuser%2Fda1f9c52-85dc-4b05-89f3-8e6374abcff8%2F"
         },
         {
-            "icon": "box-select",
+            "icon": "app-window",
             "title": "Cursos en IBM",
             "subtitle": "IBM",
             "description": "Participo en cursos ofrecidos por IBM para ampliar mis conocimientos en tecnologías específicas y mejorar mis habilidades en el análisis de datos y la programación.",
@@ -174,20 +174,20 @@
     ],
     "extras": [
         {
-            "image": "/favicon.ico",
-            "title": "Titulo",
+            "image": "scan-search",
+            "title": "Extra 1",
             "description": "Descripcion",
             "url": ""
         },
         {
-            "image": "/favicon.ico",
-            "title": "Titulo",
+            "image": "scan-search",
+            "title": "Extra 1",
             "description": "Descripcion",
             "url": ""
         },
         {
-            "image": "/favicon.ico",
-            "title": "Titulo",
+            "image": "scan-search",
+            "title": "Extra 1",
             "description": "Descripcion",
             "url": ""
         }

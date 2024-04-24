@@ -8,5 +8,7 @@ def footer(data: Media) -> rx.Component:
     return rx.vstack(
         rx.text("© 2021 JeroDev"),
         media(data),
-        spacing=Size.SMALL.value
+        spacing=Size.SMALL.value,
+        align="center",
+        width="100%"
     )
