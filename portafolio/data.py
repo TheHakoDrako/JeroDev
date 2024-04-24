@@ -1,6 +1,5 @@
 import json
 
-
 class Media:
     def __init__(self, email, cv, github, likedin):
         self.email = email

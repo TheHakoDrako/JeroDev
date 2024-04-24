@@ -1,8 +1,9 @@
 import reflex as rx
-from portafolio.components.heading import heading
-from portafolio.components.media import media
-from portafolio.data import Data
-from portafolio.styles.styles import Size
+
+from jerodev.components.heading import heading
+from jerodev.components.media import media
+from jerodev.data import Data
+from jerodev.styles.styles import Size
 
 
 def header(data: Data) -> rx.Component:

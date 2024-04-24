@@ -1,9 +1,9 @@
 import reflex as rx
 
-from portafolio.components.heading import heading
-from portafolio.components.info_detail import info_detail
-from portafolio.data import Info
-from portafolio.styles.styles import Size
+from jerodev.components.heading import heading
+from jerodev.components.info_detail import info_detail
+from jerodev.data import Info
+from jerodev.styles.styles import Size
 
 
 def info(title: str, info: list[Info]) -> rx.Component:

@@ -1,7 +1,7 @@
 import reflex as rx
-from portafolio.data import Extra
 
-from portafolio.styles.styles import IMAGE_HEIGHT, Size
+from jerodev.data import Extra
+from jerodev.styles.styles import IMAGE_HEIGHT, Size
 
 
 def card_detail(extra: Extra) -> rx.Component:

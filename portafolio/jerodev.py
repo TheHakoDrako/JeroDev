@@ -1,12 +1,13 @@
 import reflex as rx
-from portafolio import data
-from portafolio.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size
-from portafolio.views.about import about
-from portafolio.views.extra import extra
-from portafolio.views.footer import footer
-from portafolio.views.header import header
-from portafolio.views.info import info
-from portafolio.views.tech_stack import tech_stack
+
+from jerodev import data
+from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size
+from jerodev.views.about import about
+from jerodev.views.extra import extra
+from jerodev.views.footer import footer
+from jerodev.views.header import header
+from jerodev.views.info import info
+from jerodev.views.tech_stack import tech_stack
 
 DATA = data.data
 

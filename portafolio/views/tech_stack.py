@@ -1,7 +1,8 @@
 import reflex as rx
-from portafolio.components.heading import heading
-from portafolio.data import Technology
-from portafolio.styles.styles import EmSize, Size
+
+from jerodev.components.heading import heading
+from jerodev.data import Technology
+from jerodev.styles.styles import EmSize, Size
 
 
 def tech_stack(technologies: list[Technology]) -> rx.Component:
