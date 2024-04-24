@@ -1,59 +1,98 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "title": "Jero Rm | Web",
+    "description": "Bienvenido a mi portafolio, aquí encontrarás información sobre mi experiencia, proyectos y habilidades.",
+    "image": "/avatar.png",
+
+    "avatar": "/avatar.png",
+    "name": "Jeronimo Ramírez Mejía",
+    "skill": "Economist & Developer.",
+    "location": "Colombia",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "jerodatadev@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/TheHakoDrako",
+        "likedin": "https://www.linkedin.com/in/jeronimo-ramirez-mejia/"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Soy un economista y desarrollador de software apasionado por la tecnología y la economía. Me gusta aprender cosas nuevas y enfrentar desafíos. Actualmente me encuentro trabajando en proyectos de desarrollo y análisis de datos. Aquí encontrarás información sobre mi experiencia, proyectos y habilidades.",
     "technologies": [
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
-        },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-bash-plain",
+            "name": "Bash"
+        },
+        {
+            "icon": "devicon-matplotlib-plain",
+            "name": "R & Stata"
+        },
+        {
+            "icon": "devicon-mysql-plain",
+            "name": "SQL"
+        },
+        {
+            "icon": "devicon-html5-plain",
+            "name": "HTML"
+        },
+        {
+            "icon": "devicon-css3-plain",
+            "name": "CSS"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-react-plain",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-nodejs-plain",
+            "name": "Node"
+        },
+        {
+            "icon": "devicon-mongodb-plain",
+            "name": "MongoDB"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
         }
     ],
     "experience": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
+            "icon": "briefcase-business",
+            "title": "Asistente de proyectos",
+            "subtitle": "Futurum Technology",
+            "description": "Asesoré proyectos económicos y de ingeniería, realicé análisis de datos y transformación de bases de datos. Además, gestioné proyectos utilizando herramientas como API, Power BI y Excel.",
+            "date": "Ago 2023 - Dic 2023"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "briefcase-business",
+            "title": "Full Stack Developer",
+            "subtitle": "GYMAPP",
+            "description": "Trabajé en equipo utilizando GIT, desarrollando tanto el frontend como el backend con tecnologías como PHP, HTML, SASS y LARAVEL. Además, manejé bases de datos MySQL y estructura de datos.",
+            "date": "Dic 2022 - May 2023"
+        },
+        {
+            "icon": "briefcase-business",
+            "title": "Estudiante investigador y Auxiliar de docencia",
+            "subtitle": "Universidad del Quindio",
+            "description": "Realicé investigación en el programa de economía, así como análisis de datos y bases de datos utilizando Excel avanzado. También realicé prácticas en la Gobernación del Quindío.",
+            "date": "Feb 2022 - May 2023"
+        },
+        {
+            "icon": "briefcase-business",
+            "title": "Desarrollador junior",
+            "subtitle": "SUNNEL 'GREETECH'",
+            "description": "Trabajé en equipo utilizando GIT, actualicé código tanto en el frontend como en el backend. Además, contribuí al marketing y desarrollo de software que resultó en una eficiencia del 50%.",
+            "date": "Jul 2021 - Ago 2021"
         }
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
+            "icon": "folder-input",
             "title": "Software random",
             "subtitle": "Software propiedad de Metacortex",
             "description": "Herramienta para hacer rico a otras personas.",
@@ -72,7 +111,7 @@
             "github": "https://github.com/thomasanderson"
         },
         {
-            "icon": "bug-off",
+            "icon": "folder-input",
             "title": "Hackeo Matrix",
             "subtitle": "Mi obra maestra",
             "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
@@ -89,20 +128,36 @@
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "graduation-cap",
+            "title": "Graduado investigador",
+            "subtitle": "Universidad del Quindio",
+            "description": "Obtuve el título de economista con mención de honor. Además, realicé investigaciones en el campo de la economía durante mi tiempo en la universidad.",
+            "date": "2023",
+            "certificate": "https://www.uniquindio.edu.co/"
         },
         {
-            "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "app-window",
+            "title": "Cursos en Platzi",
+            "subtitle": "Platzi",
+            "description": "Realizo varios cursos en Platzi para mejorar mis habilidades en diversas áreas, incluyendo programación, desarrollo web, análisis de datos, entre otros.",
+            "date": "2020 - actualidad",
+            "certificate": "http://platzi.com/p/JeroRm/"
+        },
+        {
+            "icon": "app-window",
+            "title": "Cursos en Udemy",
+            "subtitle": "Udemy",
+            "description": "Tomo cursos en Udemy para continuar mi formación en áreas específicas, complementando mi educación universitaria y adquiriendo nuevas habilidades técnicas.",
+            "date": "2020 - actualidad",
+            "certificate": "https://ibmcsr.udemy.com/?next=%2Fuser%2Fda1f9c52-85dc-4b05-89f3-8e6374abcff8%2F"
+        },
+        {
+            "icon": "app-window",
+            "title": "Cursos en IBM",
+            "subtitle": "IBM",
+            "description": "Participo en cursos ofrecidos por IBM para ampliar mis conocimientos en tecnologías específicas y mejorar mis habilidades en el análisis de datos y la programación.",
+            "date": "2020 - actualidad",
+            "certificate": "https://ibmcsr.udemy.com/user/da1f9c52-85dc-4b05-89f3-8e6374abcff8/"
         }
     ],
     "extras": [

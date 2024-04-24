@@ -7,16 +7,21 @@ from jerodev.styles.styles import Size
 
 
 def info(title: str, info: list[Info]) -> rx.Component:
-    return rx.vstack(
-        heading(title),
+    return rx.section(
         rx.vstack(
-            *[
-                info_detail(item)
-                for item in info
-            ],
+            heading(title),
+            rx.vstack(
+                *[
+                    info_detail(item)
+                    for item in info
+                ],
+                spacing=Size.DEFAULT.value,
+                width="100%"
+            ),
             spacing=Size.DEFAULT.value,
             width="100%"
         ),
-        spacing=Size.DEFAULT.value,
-        width="100%"
+        padding_top="15px",
+        padding_bottom="30px"
     )
+        

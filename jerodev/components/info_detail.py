@@ -12,7 +12,7 @@ def info_detail(info: Info) -> rx.Component:
             icon_badge(info.icon),
             rx.vstack(
                 rx.text.strong(info.title),
-                rx.text(info.subtitle),
+                rx.text.kbd(info.subtitle, size="3"),
                 rx.text(
                     info.description,
                     size=Size.SMALL.value,

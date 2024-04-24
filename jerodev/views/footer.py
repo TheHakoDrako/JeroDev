@@ -7,7 +7,9 @@ from jerodev.styles.styles import Size
 
 def footer(data: Media) -> rx.Component:
     return rx.vstack(
-        rx.text("Nombre"),
+        rx.link("@2024 Jero Rm", href="https://www.instagram.com/jero.rm/", is_external=True),
         media(data),
-        spacing=Size.SMALL.value
+        spacing=Size.SMALL.value,
+        align="center",
+        width="100%"
     )

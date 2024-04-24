@@ -7,21 +7,26 @@ from jerodev.styles.styles import Size
 
 
 def header(data: Data) -> rx.Component:
-    return rx.hstack(
-        rx.avatar(
-            src=data.avatar,
-            size=Size.BIG.value
-        ),
-        rx.vstack(
-            heading(data.name, True),
-            heading(data.skill),
-            rx.text(
-                rx.icon("map-pin"),
-                data.location,
-                display="inherit"
+    return  rx.section(
+        rx.hstack(
+            rx.avatar(
+                src=data.avatar,
+                size=Size.BIG.value
             ),
-            media(data.media),
-            spacing=Size.SMALL.value,
+            rx.vstack(
+                heading(data.name, True),
+                heading(data.skill),
+                rx.text(
+                    rx.icon("map-pin"),
+                    data.location,
+                    display="inherit"
+                ),
+                media(data.media),
+                spacing=Size.SMALL.value,
+            ),
+            spacing=Size.DEFAULT.value,
         ),
-        spacing=Size.DEFAULT.value,
+        padding_top="15px",
+        padding_bottom="20px"
     )
+
