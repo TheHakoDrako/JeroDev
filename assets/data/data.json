@@ -110,7 +110,7 @@
                     "name": "Tecnologia"
                 }
             ],
-            "image": "database-backup",
+            "image": "",
             "url": "https://google.com",
             "github": "https://github.com"
         },
@@ -133,7 +133,7 @@
                     "name": "Tecnologia"
                 }
             ],
-            "image": "database-backup",
+            "image": "",
             "url": "https://google.com",
             "github": "https://github.com"
         }
@@ -174,19 +174,19 @@
     ],
     "extras": [
         {
-            "image": "scan-search",
+            "image": "",
             "title": "Extra 1",
             "description": "Descripcion",
             "url": ""
         },
         {
-            "image": "scan-search",
+            "image": "",
             "title": "Extra 1",
             "description": "Descripcion",
             "url": ""
         },
         {
-            "image": "scan-search",
+            "image": "",
             "title": "Extra 1",
             "description": "Descripcion",
             "url": ""
