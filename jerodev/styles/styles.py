@@ -30,11 +30,3 @@ BASE_STYLE = {
         "--cursor-button": "pointer"
     }
 }
-
-circular_progress_style = {
-    "color": "white", 
-    "size": "120px", 
-    "thickness": "8px", 
-    "track_color": "gray",
-    "cap_is_round": True
-}
