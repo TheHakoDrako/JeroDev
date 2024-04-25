@@ -2,7 +2,7 @@ import reflex as rx
 import asyncio
 
 from jerodev import data
-from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size, circular_progress_style
+from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size # circular_progress_style
 from jerodev.views.about import about
 from jerodev.views.extra import extra
 from jerodev.views.footer import footer
@@ -30,7 +30,7 @@ def index() -> rx.Component:
         rx.cond(
             AppState.loading,
             rx.center(
-                rx.chakra.circular_progress(**circular_progress_style, is_indeterminate=True),
+                rx.chakra.circular_progress(is_indeterminate=True),
                 width="100%",
                 height="100vh"
             ),
