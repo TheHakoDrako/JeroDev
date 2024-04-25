@@ -9,22 +9,22 @@ from jerodev.views.footer import footer
 from jerodev.views.header import header
 from jerodev.views.info import info
 from jerodev.views.tech_stack import tech_stack
-from jerodev.views.preloader import AppState
+# from jerodev.views.preloader import AppState
 
 
 DATA = data.data
 
 
-@rx.page(on_load=AppState.on_page_load)
+# @rx.page(on_load=AppState.on_page_load)
 def index() -> rx.Component:
     return rx.center(
-        rx.cond(
-            AppState.loading,
-            rx.center(
-                rx.chakra.circular_progress(**circular_progress_style, is_indeterminate=True),
-                width="100%",
-                height="100vh"
-            ),
+        # rx.cond(
+        #     AppState.loading,
+        #     rx.center(
+        #         rx.chakra.circular_progress(**circular_progress_style, is_indeterminate=True),
+        #         width="100%",
+        #         height="100vh"
+        #     ),
             # rx.theme_panel(),
             rx.vstack(
                 header(DATA),
@@ -45,7 +45,7 @@ def index() -> rx.Component:
                 width="100%"
             )
         )
-    )
+    # )
 
 
 app = rx.App(
