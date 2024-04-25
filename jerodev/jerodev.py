@@ -14,14 +14,21 @@ DATA = data.data
 AppState = preloader()
 
 def index() -> rx.Component:
-    return rx.center(
-        rx.cond(
-            AppState.loading,
-            rx.center(
-                rx.chakra.circular_progress(is_indeterminate=True),
-                width="100%",
-                height="100vh"
+    return rx.cond(
+        AppState.loading,
+        rx.center(
+            rx.chakra.circular_progress(
+                is_indeterminate=True,
+                color="white",
+                size="120px",
+                thickness="8px",
+                track_color="gray",
+                cap_is_round=True
             ),
+            width="100%",
+            height="100vh"
+        ),
+        rx.center(
             rx.vstack(
                 # rx.theme_panel(),
                 header(DATA),
@@ -43,6 +50,7 @@ def index() -> rx.Component:
             )
         )
     )
+
 
 
 app = rx.App(
