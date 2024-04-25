@@ -2,35 +2,26 @@ import reflex as rx
 import asyncio
 
 from jerodev import data
-from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size # circular_progress_style
+from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size, circular_progress_style
 from jerodev.views.about import about
 from jerodev.views.extra import extra
 from jerodev.views.footer import footer
 from jerodev.views.header import header
 from jerodev.views.info import info
 from jerodev.views.tech_stack import tech_stack
+from jerodev.views.preloader import AppState
 
 
 DATA = data.data
 
 
-class AppState(rx.State):
-    loading: bool = True  # El estado de carga comienza como True.
-
-    @rx.background  # Uso del decorador para tareas de fondo.
-    async def on_page_load(self):
-        async with self:  # Usar un administrador de contexto async with self
-            await asyncio.sleep(3)  # Espera de manera asíncrona.
-            self.loading = False  # Cambia el estado a False una vez completado.
-
-
-@rx.page(on_load=AppState.on_page_load)  # Usa el evento de carga de página para iniciar la carga.
+@rx.page(on_load=AppState.on_page_load)
 def index() -> rx.Component:
     return rx.center(
         rx.cond(
             AppState.loading,
             rx.center(
-                rx.chakra.circular_progress(is_indeterminate=True),
+                rx.chakra.circular_progress(**circular_progress_style, is_indeterminate=True),
                 width="100%",
                 height="100vh"
             ),
