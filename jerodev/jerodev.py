@@ -1,5 +1,4 @@
 import reflex as rx
-import asyncio
 
 from jerodev import data
 from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size, circular_progress_style
@@ -9,24 +8,23 @@ from jerodev.views.footer import footer
 from jerodev.views.header import header
 from jerodev.views.info import info
 from jerodev.views.tech_stack import tech_stack
-# from jerodev.views.preloader import AppState
-
+from jerodev.views.preloader import preloader
 
 DATA = data.data
+AppState = preloader()
 
-
-# @rx.page(on_load=AppState.on_page_load)
+@rx.page(on_load=AppState.on_page_load)
 def index() -> rx.Component:
     return rx.center(
-        # rx.cond(
-        #     AppState.loading,
-        #     rx.center(
-        #         rx.chakra.circular_progress(**circular_progress_style, is_indeterminate=True),
-        #         width="100%",
-        #         height="100vh"
-        #     ),
-            # rx.theme_panel(),
+        rx.cond(
+            AppState.loading,
+            rx.center(
+                rx.chakra.circular_progress(**circular_progress_style, is_indeterminate=True),
+                width="100%",
+                height="100vh"
+            ),
             rx.vstack(
+                # rx.theme_panel(),
                 header(DATA),
                 rx.divider(),
                 about(DATA.about),
@@ -45,7 +43,7 @@ def index() -> rx.Component:
                 width="100%"
             )
         )
-    # )
+    )
 
 
 app = rx.App(
