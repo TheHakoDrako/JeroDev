@@ -13,7 +13,7 @@ from jerodev.views.preloader import preloader
 DATA = data.data
 AppState = preloader()
 
-@rx.page(on_load=AppState.on_page_load)
+# @rx.page(on_load=AppState.on_page_load)
 def index() -> rx.Component:
     return rx.center(
         rx.cond(
