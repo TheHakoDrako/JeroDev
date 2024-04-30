@@ -12,6 +12,8 @@ Portafolio creado con:
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-- Uso [Vercel ](https://vercel.com/)
+- Desplegado con:
+
+[![Vercel](https://img.shields.io/badge/VERCEL-white?style=for-the-badge&logo=vercel&logoColor=white&labelColor=101010)](https://vercel.com/)
 
 ## Utilizando [Python](https://python.org) y [Reflex](https://reflex.dev), desplegado de forma estática (HTML, CSS, JS).
