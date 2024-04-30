@@ -1,7 +1,7 @@
 import reflex as rx
 
 from jerodev import data
-from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size
+from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size, BACKGROUND_IMAGE
 from jerodev.views.about import about
 from jerodev.views.extra import extra
 from jerodev.views.footer import footer
@@ -31,7 +31,8 @@ def index() -> rx.Component:
             padding_y=EmSize.BIG.value,
             max_width=MAX_WIDTH,
             width="100%"
-        )
+        ),
+        style=BACKGROUND_IMAGE
     )
 
 

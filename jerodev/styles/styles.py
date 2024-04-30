@@ -4,6 +4,11 @@ import reflex as rx
 
 MAX_WIDTH = "900px"
 IMAGE_HEIGHT = "200px"
+BACKGROUND_COLOR = "#00000052"
+BACKGROUND_IMAGE = {
+    "background": "url(background.jpg) center fixed no-repeat",
+    "backgroundSize": "cover"
+    }
 
 
 class EmSize(Enum):
