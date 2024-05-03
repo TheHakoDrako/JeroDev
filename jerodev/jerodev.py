@@ -8,6 +8,7 @@ from jerodev.views.footer import footer
 from jerodev.views.header import header
 from jerodev.views.info import info
 from jerodev.views.tech_stack import tech_stack
+from jerodev.views.quotes import quotes
 
 DATA = data.data
 
@@ -24,6 +25,7 @@ def index() -> rx.Component:
             info("Proyectos", DATA.projects),
             info("Formación", DATA.training),
             extra(DATA.extras),
+            quotes(),
             rx.divider(),
             footer(DATA.media),
             spacing=Size.MEDIUM.value,

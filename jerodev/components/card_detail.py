@@ -11,8 +11,9 @@ def card_detail(extra: Extra) -> rx.Component:
                 rx.image(
                     src=extra.image,
                     height=IMAGE_HEIGHT,
-                    width="100%",
-                    object_fit="cover"
+                    width="auto",
+                    margin="auto",
+                    padding="18px"
                 ),
                 pb=Size.DEFAULT.value
             ),
@@ -23,7 +24,7 @@ def card_detail(extra: Extra) -> rx.Component:
                 color_scheme="gray"
             )
         ),
-        width="100%",
         href=extra.url,
-        is_external=True
+        is_external=True,
+        width="100%"
     )

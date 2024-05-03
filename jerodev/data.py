@@ -35,6 +35,11 @@ class Extra:
         self.description = description
         self.url = url
 
+class Quote:
+    def __init__(self, description, author):
+        self.description = description
+        self.author = author
+
 
 class Data:
     def __init__(
@@ -52,7 +57,8 @@ class Data:
             experience,
             projects,
             training,
-            extras
+            extras,
+            quotes
     ):
         self.title = title
         self.description = description
@@ -68,6 +74,7 @@ class Data:
         self.projects = [Info(**info) for info in projects]
         self.training = [Info(**info) for info in training]
         self.extras = [Extra(**info) for info in extras]
+        self.quotes = [Quote(**quote) for quote in quotes]
 
 
 with open("assets/data/data.json", encoding="utf-8") as file:

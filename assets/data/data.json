@@ -162,22 +162,48 @@
     ],
     "extras": [
         {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
+            "image": "/extra_1.png",
+            "title": "Jiu Jitsu",
+            "description": "Practico Jiu Jitsu y actualmente estoy compitiendo en torneos del país.",
+            "url": "https://todojiujitsu.com/que-es-el-jiu-jitsu/"
         },
         {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
+            "image": "/extra_2.png",
+            "title": "Gym",
+            "description": "Parte de mis hábitos diarios es ir al gimnasio y mantenerme en forma.",
+            "url": "https://enciclopediaonline.com/es/gimnasio/"
         },
         {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "image": "/extra_3.png",
+            "title": "Lector",
+            "description": "Me encanta leer todo tipo de literatura. Mira mi lista de libros y anímate a leerlos.",
+            "url": "https://www.buscalibre.com.co/v2/libros-que-comprare_1482475_l.html?afiliado=64d3811033224581008e"
+        }
+    ],
+    "quotes": [
+        {
+            "description": "La economía no es una ciencia exacta, pero es una ciencia que se basa en la lógica y la razón.",
+            "author": "Jero Rm"
+        },
+        {
+            "description": "La programación es una habilidad que se puede aprender, pero la pasión por la tecnología es algo que se lleva en la sangre.",
+            "author": "Jero Rm"
+        },
+        {
+            "description": "La economía es una ciencia social que estudia la producción, distribución y consumo de bienes y servicios, en últimas, a los humanos.",
+            "author": "Jero Rm"
+        },
+        {
+            "description": "La economía y la programación son dos disciplinas que se complementan, ya que ambas buscan solucionar problemas y mejorar la calidad de vida de las personas.",
+            "author": "Jero Rm"
+        },
+        {
+            "description": "La vida de un programador se basa en resolver problemas, mientras que la vida de un economista se basa en analizarlos. Ambas disciplinas buscan mejorar la calidad de vida de las personas.",
+            "author": "Jero Rm"
+        },
+        {
+            "description": "En un mundo de tecnología y economía, la mejor inversión que puedes hacer es en ti mismo. Aprende, crece y mejora cada día.",
+            "author": "Jero Rm"
         }
     ]
 }
