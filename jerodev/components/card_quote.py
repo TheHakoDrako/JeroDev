@@ -1,11 +1,12 @@
 import reflex as rx
 import random
-from jerodev.data import data
+from jerodev.data import data, Quote
 
 class QuoteState(rx.State):
     current_quote: str = "Presiona el botón para obtener una cita"
-    current_author: str = "Autor"
-    quotes = [(Quote.description, Quote.author) for Quote in data.quotes]
+    current_author: str = "de Autor"
+    quote = Quote
+    quotes = [(quote.description, quote.author) for quote in data.quotes]
 
     def change_quote(self):
         description, author = random.choice(self.quotes)
