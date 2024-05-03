@@ -2,7 +2,7 @@ import reflex as rx
 from jerodev.components.card_quote import QuoteState
 from jerodev.styles.styles import Size
 
-def quotes():
+def quote():
     return rx.section(
         rx.center(
             rx.vstack(
