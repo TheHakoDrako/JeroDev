@@ -9,22 +9,25 @@ def media(data: Media) -> rx.Component:
     return rx.flex(
         icon_button(
             "mail",
-            f"mailto:{data.email}",
+            f"mailto: {data.email}",
             data.email,
             True
         ),
         rx.hstack(
             icon_button(
                 "file-text",
-                data.cv
+                data.cv,
+                "CV",
             ),
             icon_button(
                 "github",
-                data.github
+                data.github,
+                "Github",
             ),
             icon_button(
                 "linkedin",
-                data.likedin
+                data.likedin,
+                "Linkedin",
             ),
             spacing=Size.SMALL.value,
             justify="center"

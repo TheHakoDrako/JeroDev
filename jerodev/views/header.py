@@ -1,4 +1,5 @@
 import reflex as rx
+from reflex_type_animation import type_animation
 
 from jerodev.components.heading import heading
 from jerodev.components.media import media
@@ -15,7 +16,16 @@ def header(data: Data) -> rx.Component:
                     src=data.avatar,
                     size=Size.BIG.value
                 ),
-                heading(data.skill, center=True),
+                type_animation(
+                    sequence=[data.skill,1000],
+                    speed=2,
+                    font_size=["24px"],
+                    text_align="center",
+                    align="center",
+                    color="#D6D6ED",
+                    font_weight= "var(--font-weight-bold)",
+                    line_height="1",
+                ),
                 rx.text(
                     rx.icon("map-pin"),
                     data.location,
