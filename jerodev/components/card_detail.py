@@ -13,7 +13,7 @@ def card_detail(extra: Extra) -> rx.Component:
                     height=IMAGE_HEIGHT,
                     width="auto",
                     margin="auto",
-                    padding="18px"
+                    padding="14px"
                 ),
                 pb=Size.DEFAULT.value
             ),
@@ -26,5 +26,7 @@ def card_detail(extra: Extra) -> rx.Component:
             href=extra.url,
             is_external=True
         ),
+        background="radial-gradient(black, transparent)",
+        padding="8px",
         width="100%"
     )

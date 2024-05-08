@@ -22,8 +22,9 @@ def header(data: Data) -> rx.Component:
                     font_size=["24px"],
                     text_align="center",
                     align="center",
-                    color="#D6D6ED",
-                    font_weight= "var(--font-weight-bold)",
+                    color="#9ab2ff",
+                     high_contrast=True,
+                    font_weight= "var(--font-weight-regular)",
                     line_height="1",
                 ),
                 rx.text(

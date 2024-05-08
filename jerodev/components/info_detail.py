@@ -62,7 +62,9 @@ def info_detail(info: Info) -> rx.Component:
                 height=IMAGE_HEIGHT,
                 width="auto",
                 border_radius=EmSize.DEFAULT.value,
-                object_fit="cover"
+                object_fit="cover",
+                margin="auto",
+                padding="18px"
             )
         ),
         rx.vstack(
