@@ -114,7 +114,7 @@
                     "name": "Vite"
                 }
             ],
-            "image": "/project_1.jpg",
+            "image": "/project_1.png",
             "url": "https://jerodev.work.gd/",
             "github": "https://github.com/TheHakoDrako/thehakodrako.github.io"
         },
@@ -129,7 +129,7 @@
                     "name": "Binario"
                 }
             ],
-            "image": "/project_2.jpg",
+            "image": "/project_2.png",
             "url": "https://github.com/TheHakoDrako?tab=repositories",
             "github": "https://github.com/TheHakoDrako"
         }
