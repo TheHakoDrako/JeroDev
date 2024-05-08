@@ -33,5 +33,6 @@ def media(data: Media) -> rx.Component:
             justify="center"
         ),
         spacing=Size.SMALL.value,
-        flex_direction=["column", "column", "row"]
+        flex_direction=["column", "column", "row"],
+        align="center"
     )

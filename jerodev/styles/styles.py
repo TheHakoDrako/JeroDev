@@ -32,6 +32,10 @@ STYLESHEETS = [
 
 BASE_STYLE = {
     rx.button: {
-        "--cursor-button": "pointer"
+        "--cursor-button": "pointer",
+        "boxShadow": "inset rgb(79 103 193 / 80%) 0px 1px 2px 1px",
+        "_hover":{
+            "boxShadow": "0px 0px 6px 0px #ffffff, 0px 27px 44px -13px color(prophoto-rgb 0.36 0.15 0.97 / 0.1) inset"
+        }
     }
 }

@@ -93,28 +93,36 @@
     "projects": [
         {
             "icon": "folder-input",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "title": "Mi primera página web",
+            "subtitle": "Primer portafolio",
+            "description": "Página en la cual aprendi a programar y a desarrollar mis habilidades en el desarrollo web, manejando diferentes estilos y use como framework vite, javascript, html y css.",
             "technologies": [
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
+                    "icon": "devicon-html5-plain",
+                    "name": "Html"
+                },
+                {
+                    "icon": "devicon-css3-plain",
+                    "name": "Css"
+                },
+                {
+                    "icon": "devicon-vitejs-plain",
+                    "name": "Vite"
                 }
             ],
             "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            "url": "https://jerodev.work.gd/",
+            "github": "https://github.com/TheHakoDrako/thehakodrako.github.io"
         },
         {
             "icon": "folder-input",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
+            "title": "En desarrollo",
+            "subtitle": "Diferentes proyectos",
+            "description": "Puedes ver todos mis proyectos en repositorios de github, donde se encuentran en desarrollo y en diferentes etapas de desarrollo.",
             "technologies": [
                 {
                     "icon": "devicon-devicon-plain",
@@ -122,8 +130,8 @@
                 }
             ],
             "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "url": "https://github.com/TheHakoDrako?tab=repositories",
+            "github": "https://github.com/TheHakoDrako"
         }
     ],
     "training": [
