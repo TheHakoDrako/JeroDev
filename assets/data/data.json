@@ -58,6 +58,10 @@
         {
             "icon": "devicon-git-plain",
             "name": "Git"
+        },
+        {
+            "icon": "devicon-php-plain",
+            "name": "PHP"
         }
     ],
     "experience": [
