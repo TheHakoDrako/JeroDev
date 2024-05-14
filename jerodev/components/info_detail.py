@@ -57,14 +57,22 @@ def info_detail(info: Info) -> rx.Component:
         ),
         rx.cond(
             info.image != "",
-            rx.image(
-                src=info.image,
-                height=IMAGE_HEIGHT,
-                width="auto",
-                border_radius=EmSize.DEFAULT.value,
-                object_fit="cover",
-                margin="auto",
-                padding="18px"
+            rx.card(
+                rx.image(
+                    src=info.image,
+                    height="auto",
+                    width="auto",
+                    margin="auto",
+                    padding="2px",
+                    borderRadius="18px",
+                    opacity="0.4",
+                    _hover={
+                        "opacity": 1,  # Cambia la opacidad cuando el mouse esté por encima
+                    },
+                ),
+                style={"--card-padding": "var(--space-1)"},
+                background="radial-gradient(black, transparent)",
+                width="100%"
             )
         ),
         rx.vstack(

@@ -13,8 +13,9 @@ BACKGROUND_IMAGE = {
 
 class EmSize(Enum):
     DEFAULT = "1em"  # 16px
-    MEDIUM = "2em"
-    BIG = "4em"
+    DEFAULT_BIG = "1.5em"  # 24px
+    MEDIUM = "2em" # 32px
+    BIG = "4em" # 64px
 
 
 class Size(Enum):

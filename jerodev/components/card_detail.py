@@ -13,7 +13,11 @@ def card_detail(extra: Extra) -> rx.Component:
                     height=IMAGE_HEIGHT,
                     width="auto",
                     margin="auto",
-                    padding="14px"
+                    padding="14px",
+                    opacity="0.4",
+                    _hover={
+                        "opacity": 1,  # Cambia la opacidad cuando el mouse esté por encima
+                    },
                 ),
                 pb=Size.DEFAULT.value
             ),
