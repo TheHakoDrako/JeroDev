@@ -7,29 +7,32 @@ from jerodev.styles.styles import Size
 
 
 def extra(extras: list[Extra]) -> rx.Component:
-    return rx.vstack(
-        heading("Extra"),
-        rx.mobile_only(
-            rx.vstack(
-                *[
-                    card_detail(extra)
-                    for extra in extras
-                ],
-                spacing=Size.DEFAULT.value
+    return rx.section(
+        rx.vstack(
+            heading("Extra"),
+            rx.mobile_only(
+                rx.vstack(
+                    *[
+                        card_detail(extra)
+                        for extra in extras
+                    ],
+                    spacing=Size.DEFAULT.value
+                ),
+                width="100%"
             ),
+            rx.tablet_and_desktop(
+                rx.grid(
+                    *[
+                        card_detail(extra)
+                        for extra in extras
+                    ],
+                    spacing=Size.DEFAULT.value,
+                    columns="3"
+                ),
+                width="100%"
+            ),
+            spacing=Size.DEFAULT.value,
             width="100%"
         ),
-        rx.tablet_and_desktop(
-            rx.grid(
-                *[
-                    card_detail(extra)
-                    for extra in extras
-                ],
-                spacing=Size.DEFAULT.value,
-                columns="3"
-            ),
-            width="100%"
-        ),
-        spacing=Size.DEFAULT.value,
-        width="100%"
+        id="extra",
     )

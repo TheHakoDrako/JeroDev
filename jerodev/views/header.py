@@ -13,17 +13,19 @@ def header(data: Data) -> rx.Component:
             rx.vstack(
                 heading(data.name, True, center=True),
                 rx.avatar(
+                    alt="Jero Rm",
+                    title="Jero Rm",
                     src=data.avatar,
                     size=Size.BIG.value
                 ),
                 type_animation(
                     sequence=[data.skill,1000],
-                    speed=2,
+                    speed=1,
                     font_size=["24px"],
                     text_align="center",
                     align="center",
                     color="#9ab2ff",
-                     high_contrast=True,
+                    high_contrast=True,
                     font_weight= "var(--font-weight-regular)",
                     line_height="1",
                 ),
@@ -42,8 +44,8 @@ def header(data: Data) -> rx.Component:
             align="center",
             width="100%"
         ),
-        padding_top="15px",
-        padding_bottom="20px",
+        padding_top="22px",
+        padding_bottom="32px",
         width="100%"
     )
 

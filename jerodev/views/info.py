@@ -18,10 +18,10 @@ def info(title: str, info: list[Info]) -> rx.Component:
                 spacing=Size.DEFAULT.value,
                 width="100%"
             ),
-            spacing=Size.DEFAULT.value,
+            spacing=Size.MEDIUM.value,
             width="100%"
         ),
-        padding_top="15px",
-        padding_bottom="30px"
+        paddingTop="28px",
+        paddingBottom="32px",
+        id=title.lower().replace(" ", "-")
     )
-        

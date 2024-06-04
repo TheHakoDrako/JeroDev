@@ -8,6 +8,7 @@ from jerodev.views.footer import footer
 from jerodev.views.header import header
 from jerodev.views.info import info
 from jerodev.views.tech_stack import tech_stack
+from jerodev.views.nav_bar import nav_bar
 #from jerodev.views.quotes import quote
 
 DATA = data.data
@@ -16,10 +17,9 @@ def index() -> rx.Component:
     return rx.center(
         rx.vstack(
             # rx.theme_panel(),
+            nav_bar(),
             header(DATA),
-            rx.divider(),
             about(DATA.about),
-            rx.divider(),
             tech_stack(DATA.technologies),
             info("Experiencia", DATA.experience),
             info("Proyectos", DATA.projects),

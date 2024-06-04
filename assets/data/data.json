@@ -13,7 +13,7 @@
         "github": "https://github.com/TheHakoDrako",
         "likedin": "https://www.linkedin.com/in/jeronimo-ramirez-mejia/"
     },
-    "about": "Soy un economista y desarrollador de software apasionado por la tecnología y la economía. Me gusta aprender cosas nuevas y enfrentar desafíos. Actualmente me encuentro trabajando en proyectos de desarrollo y análisis de datos. Aquí encontrarás información sobre mi experiencia, proyectos y habilidades.",
+    "about": "Economista y desarrollador de software con una pasión por la intersección entre la economía y la tecnología. Mi trayectoria comenzó en el frontend y luego me especialicé en el backend, acumulando alrededor de un año de experiencia en ambos ámbitos dentro de la industria.\n\nSoy un ferviente aprendiz, siempre en busca de nuevos conocimientos y desafíos. Manejo con soltura Git y mi principal habilidad es Python. Mi interés por el análisis de datos me ha llevado a explorar y adentrarme en el campo de la inteligencia artificial, donde estoy desarrollando y perfeccionando un modelo propio.\n\nEn mi carrera, he trabajado en diversos proyectos de desarrollo y análisis de datos, aplicando mis habilidades para crear soluciones innovadoras y eficientes. Aquí podrás conocer más sobre mi experiencia, proyectos y competencias.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -144,7 +144,7 @@
             "title": "Graduado investigador",
             "subtitle": "Universidad del Quindio",
             "description": "Obtuve el título de economista con mención de honor. Además, realicé investigaciones en el campo de la economía durante mi tiempo en la universidad.",
-            "date": "2023",
+            "date": "2023 - Noviembre",
             "certificate": "https://www.uniquindio.edu.co/"
         },
         {

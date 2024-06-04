@@ -16,7 +16,8 @@ def info_detail(info: Info) -> rx.Component:
                 rx.text(
                     info.description,
                     size=Size.SMALL.value,
-                    color_scheme="gray"
+                    color_scheme="gray",
+                    textAlign= "justify"
                 ),
                 rx.cond(
                     info.technologies,
@@ -38,14 +39,16 @@ def info_detail(info: Info) -> rx.Component:
                         info.url != "",
                         icon_button(
                             "link",
-                            info.url
+                            info.url,
+                            "Web"
                         )
                     ),
                     rx.cond(
                         info.github != "",
                         icon_button(
                             "github",
-                            info.github
+                            info.github,
+                            "Github"
                         )
                     )
                 ),
@@ -85,6 +88,7 @@ def info_detail(info: Info) -> rx.Component:
                 icon_button(
                     "shield-check",
                     info.certificate,
+                    "Certificado",
                     solid=True
                 )
             ),

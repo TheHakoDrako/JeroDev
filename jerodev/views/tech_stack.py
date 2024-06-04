@@ -24,9 +24,9 @@ def tech_stack(technologies: list[Technology]) -> rx.Component:
                 wrap="wrap",
                 spacing=Size.SMALL.value
             ),
-            spacing=Size.DEFAULT.value
+            spacing=Size.MEDIUM.value
         ),
-        padding_top="15px",
-        padding_bottom="25px"
+        paddingTop="12px",
+        paddingBottom="32px"
     )
         
