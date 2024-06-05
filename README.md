@@ -24,8 +24,10 @@ Si deseas contactarme, puedes encontrarme en:
 ```
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jerodev.vercel.app/)
+
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeronimo-ramirez-mejia/)
-[![github](https://img.shields.io/badge/My_GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheHakoDrako)
+
+[![github](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheHakoDrako)
 
 ```
 Estoy disponible para oportunidades laborales, colaboraciones y cualquier pregunta que tengas sobre mi trabajo o experiencia.
