@@ -62,6 +62,7 @@ def info_detail(info: Info) -> rx.Component:
             info.image != "",
             rx.card(
                 rx.image(
+                    title=info.title,
                     src=info.image,
                     height="auto",
                     width="auto",

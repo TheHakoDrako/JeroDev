@@ -17,6 +17,15 @@ def index() -> rx.Component:
     return rx.center(
         rx.vstack(
             # rx.theme_panel(),
+            # Google Analytics script
+            rx.script(src="https://www.googletagmanager.com/gtag/js?id=G-DB1D3Q56TH"),
+            rx.script("""
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DB1D3Q56TH');
+            """),
+            # Components of my website
             nav_bar(),
             header(DATA),
             about(DATA.about),
@@ -36,7 +45,6 @@ def index() -> rx.Component:
         ),
         style=BACKGROUND_IMAGE
     )
-
 
 app = rx.App(
     stylesheets=STYLESHEETS,

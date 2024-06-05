@@ -12,11 +12,10 @@ def header(data: Data) -> rx.Component:
         rx.center(
             rx.vstack(
                 heading(data.name, True, center=True),
-                rx.avatar(
-                    alt="Jero Rm",
-                    title="Jero Rm",
+                rx.image(
                     src=data.avatar,
-                    size=Size.BIG.value
+                    height="150px",
+                    title="Jero Rm"
                 ),
                 type_animation(
                     sequence=[data.skill,1000],
