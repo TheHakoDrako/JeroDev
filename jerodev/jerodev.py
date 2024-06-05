@@ -1,7 +1,7 @@
 import reflex as rx
 
 from jerodev import data
-from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size, BACKGROUND_IMAGE, GA_SCRIPT
+from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size, BACKGROUND_IMAGE
 from jerodev.views.about import about
 from jerodev.views.extra import extra
 from jerodev.views.footer import footer
@@ -57,7 +57,6 @@ app.add_page(
     title=title,
     description=description,
     image=image,
-    script_tags=GA_SCRIPT,
     meta=[
         {"name": "og:title", "content": title},
         {"name": "og:description", "content": description},
