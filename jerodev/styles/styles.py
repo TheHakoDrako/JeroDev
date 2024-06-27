@@ -21,6 +21,8 @@ NAVBAR = {
     "justifyContent": "center",
     "alignItems": "center",
     "padding": "4px",
+    "paddingLeft": "8px",
+    "paddingRight": "8px",
     "margin": "4px",
     "borderBottom": "1px solid rgba(0, 0, 0, 0.1)",
     "backgroundColor": "rgb(255 255 255 / 22%)",

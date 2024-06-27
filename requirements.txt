@@ -1,2 +1,2 @@
-reflex==0.4.9
+reflex==0.5.3
 reflex_type_animation==0.0.1
