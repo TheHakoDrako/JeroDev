@@ -18,12 +18,12 @@ def index() -> rx.Component:
         rx.vstack(
             # rx.theme_panel(),
             # Google Analytics script
-            rx.script(src="https://www.googletagmanager.com/gtag/js?id=G-DB1D3Q56TH"),
+            rx.script(src="https://www.googletagmanager.com/gtag/js?id=G-DB1D3Q56TH", async_=True),
             rx.script("""
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-DB1D3Q56TH');
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-DB1D3Q56TH');
             """),
             # Components of my website
             nav_bar(),
@@ -43,7 +43,7 @@ def index() -> rx.Component:
             max_width=MAX_WIDTH,
             width="100%"
         ),
-        style=BACKGROUND_IMAGE
+        style=BACKGROUND_IMAGE,
     )
 
 app = rx.App(

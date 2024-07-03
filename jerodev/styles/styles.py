@@ -20,7 +20,7 @@ NAVBAR = {
     "display": "flex",
     "justifyContent": "center",
     "alignItems": "center",
-    "padding": "4px",
+    "padding": "4px 16px",
     "paddingLeft": "8px",
     "paddingRight": "8px",
     "margin": "4px",
@@ -30,17 +30,21 @@ NAVBAR = {
     "boxShadow": "0px 2px 4px rgba(0, 0, 0, 0.1)",  # Sombra
     "ring": "1",  # Anillo
     "backdropFilter": "blur(10px)",  # Efecto de desenfoque
-    "transition": "borderBottom 0.3s ease-in-out"
+    "transition": "backgroundColor 0.3s ease-in-out, borderBottom 0.3s ease-in-out",
+    "@media (max-width: 768px)": {  # Estilos para dispositivos móviles
+        "width": "90%",
+        "fontSize": "smaller"
+    }
 }
-
 
 # Estilos para los enlaces de navegación
 NAVBAR_LINK = {
+    "textSizeAdjust": "100%",
     "margin": "3px",
     "color": "rgb(237,238,240)",
     ":hover": {
         "color": "rgb(154,178,243)",
-    },
+    }
 }
 
 # Colores 
@@ -79,7 +83,9 @@ STYLESHEETS = [
 
 # Estilos base
 BASE_STYLE = {
+    "textSizeAdjust": "100%",
     rx.button: {
+        "textSizeAdjust": "100%",
         "fontWeight": "var(--font-weight-regular)",
         "--cursor-button": "pointer",
         "boxShadow": "inset rgb(43 84 205) 0px 1px 2px 1px",
