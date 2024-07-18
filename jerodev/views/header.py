@@ -14,7 +14,9 @@ def header(data: Data) -> rx.Component:
                 heading(data.name, True, center=True),
                 rx.image(
                     src=data.avatar,
-                    height="150px",
+                    height="264px",
+                    borderRadius="100px",
+                    margin="12px",
                     title="Jero Rm"
                 ),
                 type_animation(
