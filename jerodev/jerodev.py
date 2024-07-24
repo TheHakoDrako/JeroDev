@@ -68,6 +68,7 @@ app.add_page(
     meta=[
         {"name": "og:title", "content": title},
         {"name": "og:description", "content": description},
-        {"name": "og:image", "content": image}
+        {"name": "og:image", "content": image},
+        {"char_set": "UTF-8"}
     ]
 )

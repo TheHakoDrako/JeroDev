@@ -1,24 +1,22 @@
 import reflex as rx
 
 from jerodev.components.heading import heading
-
+from jerodev.styles.styles import Size
 
 def about(description: str) -> rx.Component:
     return rx.section(
         rx.vstack(
             heading("Sobre mí"),
-            rx.box(
-                rx.text(
-                    description,
-                    white_space="pre-wrap"
-                ),
-                padding="20px",
-                borderRadius="10px",
-                backgroundColor="var(--background-secondary)",
-                textAlign= "justify"
-            )
+            rx.text(
+                description,
+                white_space="pre-wrap",
+                paddingTop="16px",
+            ),
+            backgroundColor="var(--background-secondary)",
+            textAlign= "justify"
         ),
-        paddingTop="28px",
-        paddingBottom="32px",
+        spacing=Size.MEDIUM.value,
+        paddingTop="32px",
+        paddingBottom="38px",
         id="sobre-mi"
     )

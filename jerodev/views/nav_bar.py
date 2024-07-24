@@ -16,7 +16,10 @@ def nav_bar() -> rx.Component:
         rx.link(
             item["title"], 
             href=item["url"],
-            style=NAVBAR_LINK
+            style=NAVBAR_LINK,      
+            color_scheme="blue",
+            high_contrast=True,
+            underline="hover"
         ) for item in nav_data
     ]
     

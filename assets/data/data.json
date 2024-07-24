@@ -13,7 +13,7 @@
         "github": "https://github.com/TheHakoDrako",
         "likedin": "https://www.linkedin.com/in/jeronimo-ramirez-mejia/"
     },
-    "about": "Economista y desarrollador de software con una pasión por la intersección entre la economía y la tecnología. Mi trayectoria comenzó en el frontend y luego me especialicé en el backend, acumulando alrededor de un año de experiencia en ambos ámbitos dentro de la industria.\n\nSoy un ferviente aprendiz, siempre en busca de nuevos conocimientos y desafíos. Manejo con soltura Git y mi principal habilidad es Python. Mi interés por el análisis de datos me ha llevado a explorar y adentrarme en el campo de la inteligencia artificial, donde estoy desarrollando y perfeccionando un modelo propio.\n\nEn mi carrera, he trabajado en diversos proyectos de desarrollo y análisis de datos, aplicando mis habilidades para crear soluciones innovadoras y eficientes. Aquí podrás conocer más sobre mi experiencia, proyectos y competencias.",
+    "about": "Soy un economista, analista y desarrollador de software apasionado por la convergencia entre la economía y la tecnología. Mi carrera comenzó en el ámbito de la economía, evolucionando posteriormente hacia el análisis de datos. Esta pasión me llevó a explorar y dominar el desarrollo de software, primero en el frontend y luego especializándome en el backend, acumulando así una valiosa experiencia en ambos campos dentro de la industria.\n\nComo un ferviente aprendiz, estoy constantemente en busca de nuevos conocimientos y desafíos. Soy un usuario experimentado de Git y Python es mi principal herramienta de trabajo. Mi profundo interés en el análisis de datos me ha guiado hacia la inteligencia artificial, donde actualmente estoy desarrollando modelos.\n\nA lo largo de mi trayectoria, he participado en diversos proyectos de desarrollo y análisis de datos, aplicando mis habilidades para crear soluciones innovadoras y eficientes. Mi capacidad para integrar conocimientos económicos y tecnológicos me permite abordar problemas complejos de manera holística y efectiva.\n\nTe invito a conocer más sobre mi experiencia, proyectos y competencias. Estoy convencido de que mi combinación única de habilidades y pasión puede aportar un valor significativo a cualquier equipo o proyecto.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -48,8 +48,8 @@
             "name": "React"
         },
         {
-            "icon": "devicon-nodejs-plain",
-            "name": "Node"
+            "icon": "devicon-java-plain",
+            "name": "Java"
         },
         {
             "icon": "devicon-mongodb-plain",
@@ -62,6 +62,18 @@
         {
             "icon": "devicon-php-plain",
             "name": "PHP"
+        },
+        {
+            "icon": "devicon-wordpress-plain",
+            "name": "Wordpress"
+        },
+        {
+            "icon": "devicon-microsoftsqlserver-plain",
+            "name": "Excel"
+        },
+        {
+            "icon": "devicon-microsoftsqlserver-plain",
+            "name": "Word"
         }
     ],
     "experience": [
@@ -97,9 +109,9 @@
     "projects": [
         {
             "icon": "folder-input",
-            "title": "Mi primera página web",
-            "subtitle": "Primer portafolio",
-            "description": "Página en la cual aprendi a programar y a desarrollar mis habilidades en el desarrollo web, manejando diferentes estilos y use como framework vite, javascript, html y css.",
+            "title": "Reconocimiento de la web",
+            "subtitle": "Proyecto primera página web",
+            "description": "Desarrollé mi primer proyecto de frontend web, aprendiendo javascript y otros conceptos básicos de desarrollo web.",
             "technologies": [
                 {
                     "icon": "devicon-javascript-plain",
@@ -119,21 +131,48 @@
                 }
             ],
             "image": "/project_1.png",
-            "url": "https://jerodev.work.gd/",
-            "github": "https://github.com/TheHakoDrako/thehakodrako.github.io"
+            "url": "https://jeroap5.vercel.app/",
+            "github": "https://github.com/TheHakoDrako/PagJeroAP5"
+        },
+        {
+            "icon": "folder-input",
+            "title": "Proyecto de frontend web",
+            "subtitle": "Proyecto del SENA",
+            "description": "Desarrollé un proyecto de frontend y backend utilizando tecnologías como JavaScript, HTML y CSS. El proyecto fue realizado en el SENA en análisis y desarrollo de software",
+            "technologies": [
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-html5-plain",
+                    "name": "Html"
+                },
+                {
+                    "icon": "devicon-css3-plain",
+                    "name": "Css"
+                },
+                {
+                    "icon": "devicon-bootstrap-plain",
+                    "name": "Bootstrap"
+                }
+            ],
+            "image": "/project_2.png",
+            "url": "https://jeroap5.vercel.app/",
+            "github": "https://github.com/TheHakoDrako/PagJeroAP5"
         },
         {
             "icon": "folder-input",
             "title": "En desarrollo",
             "subtitle": "Diferentes proyectos",
-            "description": "Puedes ver todos mis proyectos en repositorios de github, donde se encuentran en desarrollo y en diferentes etapas de desarrollo.",
+            "description": "Puedes ver todos mis proyectos en repositorios de github, donde se encuentran en desarrollo y en diferentes etapas de crecimiento.",
             "technologies": [
                 {
                     "icon": "devicon-devicon-plain",
                     "name": "Binario"
                 }
             ],
-            "image": "/project_2.png",
+            "image": "/project_3.png",
             "url": "https://github.com/TheHakoDrako?tab=repositories",
             "github": "https://github.com/TheHakoDrako"
         }

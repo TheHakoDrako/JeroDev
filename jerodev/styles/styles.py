@@ -40,11 +40,10 @@ NAVBAR = {
 # Estilos para los enlaces de navegación
 NAVBAR_LINK = {
     "textSizeAdjust": "100%",
+    "WebkitTextSizeAdjust": "100%",
     "margin": "3px",
     "color": "rgb(237,238,240)",
-    ":hover": {
-        "color": "rgb(154,178,243)",
-    }
+    "transition": "color 0.3s ease-in-out"
 }
 
 # Colores 
