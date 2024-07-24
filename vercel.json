@@ -9,6 +9,12 @@
             }
         }
     ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/public/$1"
+        }
+    ],
     "headers": [
         {
             "source": "/(.*)",
@@ -30,12 +36,6 @@
                     "value": "1; mode=block"
                 }
             ]
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/public/$1"
         }
     ]
 }
