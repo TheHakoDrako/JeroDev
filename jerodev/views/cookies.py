@@ -34,7 +34,7 @@ def cookie_dialog():
             rx.flex(
                 rx.center(
                     rx.dialog.title("Configuración de Cookies"),
-                    justify="spaceBetween",
+                    justify="center",
                     align="center",
                     width="100%",
                 ),
