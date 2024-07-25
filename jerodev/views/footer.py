@@ -15,7 +15,7 @@ def footer(data: Media) -> rx.Component:
             is_external=True
         ),
         float_button(
-            icon=rx.image(src="/coffee.svg", alt="Buy me a coffee"),
+            icon=rx.image(src="/coffee.svg", alt="Buy me a coffee", title="Buy me a coffee"),
             href=f"{const.BUY_ME_A_COFFEE}",
             is_external=True
         ),

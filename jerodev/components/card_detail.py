@@ -11,6 +11,7 @@ def card_detail(extra: Extra) -> rx.Component:
                 rx.image(
                     src=extra.image,
                     title=extra.title,
+                    alt=extra.title,
                     height=IMAGE_HEIGHT,
                     width="auto",
                     margin="auto",

@@ -17,7 +17,8 @@ def header(data: Data) -> rx.Component:
                     height="264px",
                     borderRadius="100px",
                     margin="12px",
-                    title="Jero Rm"
+                    title="Jero Rm",
+                    alt="Jeronimo Ramirez Mejia"
                 ),
                 type_animation(
                     sequence=[data.skill,1000],
