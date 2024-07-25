@@ -1,4 +1,5 @@
 import reflex as rx
+import jerodev.constans as const
 
 from jerodev import data
 from jerodev.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size, BACKGROUND_IMAGE
@@ -17,14 +18,6 @@ def index() -> rx.Component:
     return rx.center(
         rx.vstack(
             # rx.theme_panel(),
-            # Google Analytics script
-            rx.script(src="https://www.googletagmanager.com/gtag/js?id=G-DB1D3Q56TH", async_=True),
-            rx.script("""
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-DB1D3Q56TH');
-            """),
             # Components of my website
             nav_bar(),
             header(DATA),
@@ -44,6 +37,16 @@ def index() -> rx.Component:
             width="100%"
         ),
         style=BACKGROUND_IMAGE,
+        head_components=[
+            # Google Analytics script
+            rx.script(src=f"https://www.googletagmanager.com/gtag/js?id={const.G_TAG}", async_=True),
+            rx.script(f"""
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){{dataLayer.push(arguments);}}
+                gtag('js', new Date());
+                gtag('config', '{const.G_TAG}');
+            """),
+        ]
     )
 
 app = rx.App(
@@ -66,9 +69,12 @@ app.add_page(
     description=description,
     image=image,
     meta=[
+        {"name": "og:type", "content": "website"},
         {"name": "og:title", "content": title},
         {"name": "og:description", "content": description},
         {"name": "og:image", "content": image},
+        {"name": "twitter:card", "content": "summary_large_image"},
+        {"name": "twitter:site", "content": "@JeroRmSoyYo"},
         {"char_set": "UTF-8"}
     ]
 )
