@@ -81,7 +81,7 @@
             "icon": "briefcase-business",
             "title": "Análista de datos",
             "subtitle": "Freelancer",
-            "description": "Aporte en diferentes proyectos de análisis de datos, utilizando herramientas como Python (lógica de programación), SQL, Excel y Power BI. Realicé análisis de datos, visualización y modelado de datos.",
+            "description": "Aporte en diferentes proyectos de análisis de datos, utilizando herramientas como Python (lógica de programación), SQL, Excel y Power BI. Realicé análisis de datos, visualización y modelado de datos. Por otro lado, dicté clases de análisis de datos y python en un entorno de Colab para la Universidad del Quindío, a estudiantes de últimos semestres.",
             "date": "Ene 2024 - Abr 2024"
         },
         {
@@ -184,6 +184,14 @@
                 {
                     "icon": "devicon-devicon-plain",
                     "name": "Binario"
+                },
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-mysql-original",
+                    "name": "MySql"
                 }
             ],
             "image": "/project_3.png",
@@ -192,6 +200,14 @@
         }
     ],
     "training": [
+        {
+            "icon": "notebook-text",
+            "title": "Análista y Desarrollador de Software",
+            "subtitle": "SENA",
+            "description": "Actualmente estoy en las últimas etapas de ADSO del SENA, donde he aprendido sobre desarrollo de software, análisis de datos, programación y bases de datos.",
+            "date": "2023 - Actualidad",
+            "certificate": "https://zajuna.sena.edu.co/zajuna/"
+        },
         {
             "icon": "graduation-cap",
             "title": "Graduado investigador",
@@ -205,7 +221,7 @@
             "title": "Cursos en Platzi",
             "subtitle": "Platzi",
             "description": "Realizo varios cursos en Platzi para mejorar mis habilidades en diversas áreas, incluyendo programación, desarrollo web, análisis de datos, entre otros.",
-            "date": "2020 - actualidad",
+            "date": "2020 - Actualidad",
             "certificate": "http://platzi.com/p/JeroRm/"
         },
         {
@@ -213,7 +229,7 @@
             "title": "Cursos en Udemy",
             "subtitle": "Udemy",
             "description": "Tomo cursos en Udemy para continuar mi formación en áreas específicas, complementando mi educación universitaria y adquiriendo nuevas habilidades técnicas.",
-            "date": "2020 - actualidad",
+            "date": "2020 - Actualidad",
             "certificate": "https://ibmcsr.udemy.com/?next=%2Fuser%2Fda1f9c52-85dc-4b05-89f3-8e6374abcff8%2F"
         },
         {
@@ -221,7 +237,7 @@
             "title": "Cursos en IBM",
             "subtitle": "IBM",
             "description": "Participo en cursos ofrecidos por IBM para ampliar mis conocimientos en tecnologías específicas y mejorar mis habilidades en el análisis de datos y la programación.",
-            "date": "2020 - actualidad",
+            "date": "2020 - Actualidad",
             "certificate": "https://ibmcsr.udemy.com/user/da1f9c52-85dc-4b05-89f3-8e6374abcff8/"
         }
     ],
