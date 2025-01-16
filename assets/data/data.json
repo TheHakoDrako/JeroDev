@@ -79,9 +79,16 @@
     "experience": [
         {
             "icon": "briefcase-business",
+            "title": "Docente temporal",
+            "subtitle": "Universidad del Quindio",
+            "description": "Impartí módulos de programación y análisis de datos para estudiantes de Ciencias Económicas y Administrativas. Enseñé Python en un entorno COLAB, cubriendo estructuras de control, bibliotecas como Pandas, Numpy y Matplotlib, y manejo de bases de datos, incluyendo creación, edición y transformación desde Colab.",
+            "date": "Nov 2024 - Dec 2024"
+        },
+        {
+            "icon": "briefcase-business",
             "title": "Análista de datos",
             "subtitle": "Freelancer",
-            "description": "Aporte en diferentes proyectos de análisis de datos, utilizando herramientas como Python (lógica de programación), SQL, Excel y Power BI. Realicé análisis de datos, visualización y modelado de datos. Por otro lado, dicté clases de análisis de datos y python en un entorno de Colab para la Universidad del Quindío, a estudiantes de últimos semestres.",
+            "description": "Aporte en diferentes proyectos de análisis de datos, utilizando herramientas como Python (lógica de programación), SQL, Excel y Power BI. Realicé análisis de datos, visualización y modelado de datos.",
             "date": "Ene 2024 - Nov 2024"
         },
         {
