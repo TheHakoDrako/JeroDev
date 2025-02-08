@@ -42,9 +42,11 @@ NAVBAR_LINK = {
     "textSizeAdjust": "100%",
     "WebkitTextSizeAdjust": "100%",
     "margin": "3px",
-    "color": "rgb(237,238,240)",
+    "color": "rgb(255 255 255)",
     "transition": "color 0.3s ease-in-out"
 }
+
+NAVBAR_LINK
 
 # Colores 
 class Color(Enum):

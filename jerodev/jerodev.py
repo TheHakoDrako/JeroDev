@@ -37,19 +37,19 @@ def index() -> rx.Component:
             width="100%"
         ),
         style=BACKGROUND_IMAGE,
-        head_components=[
-            # Google Analytics script
-            rx.script(src=f"https://www.googletagmanager.com/gtag/js?id={const.G_TAG}", async_=True),
-            rx.script(f"""
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){{dataLayer.push(arguments);}}
-                gtag('js', new Date());
-                gtag('config', '{const.G_TAG}');
-            """),
-        ]
     )
 
 app = rx.App(
+    head_components=[
+        # Google Analytics script
+        rx.script(src=f"https://www.googletagmanager.com/gtag/js?id={const.G_TAG}", async_=True),
+        rx.script(f"""
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){{dataLayer.push(arguments);}}
+            gtag('js', new Date());
+            gtag('config', '{const.G_TAG}');
+        """),
+    ],
     stylesheets=STYLESHEETS,
     style=BASE_STYLE,
     theme=rx.theme(
