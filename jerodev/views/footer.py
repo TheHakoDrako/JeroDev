@@ -10,7 +10,7 @@ from jerodev.styles.styles import Size
 def footer(data: Media) -> rx.Component:
     return rx.vstack(
         rx.link(
-            "@2024 Jero Rm", 
+            "@2025 Jero Rm", 
             href=f"{const.INSTAGRAM_URL}", 
             is_external=True
         ),
