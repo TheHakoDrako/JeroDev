@@ -4,11 +4,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 rm -rf public
 reflex init
-reflex export --frontend-only
-if [ -f frontend.zip ]; then
-    unzip frontend.zip -d public
-    rm -f frontend.zip
-else
-    echo "frontend.zip not found."
-fi
+reflex export --frontend-only --no-zip
+unzip frontend.zip -d public
+rm -f frontend.zip
 deactivate
