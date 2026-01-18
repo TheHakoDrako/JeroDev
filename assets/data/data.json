@@ -79,6 +79,13 @@
     "experience": [
         {
             "icon": "briefcase-business",
+            "title": "Desarrollador Full Stack",
+            "subtitle": "Sistemas En Linea S.A",
+            "description": "Desarrollador Full Stack de software, con experiencia en microservicios, servicios de datos, servicios de procesos, consumo de API's, manejo de GIT, gestión de bases de datos, manejo de SQL y Scripts, construcción de algoritmos, manejo de GO en colaboración con el equipo de trabajo del área de Innovación y Desarrollo.",
+            "date": "May 2025 - Actualidad"
+        },
+        {
+            "icon": "briefcase-business",
             "title": "Docente temporal",
             "subtitle": "Universidad del Quindio",
             "description": "Impartí módulos de programación y análisis de datos para estudiantes de Ciencias Económicas y Administrativas. Enseñé Python en un entorno COLAB, cubriendo estructuras de control, bibliotecas como Pandas, Numpy y Matplotlib, y manejo de bases de datos, incluyendo creación, edición y transformación desde Colab.",
