@@ -12,22 +12,11 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/$1"
-        }
-    ],
-    "headers": [
-        {
-            "source": "/(.*)",
-            "headers": [
-                {
-                    "key": "X-Content-Type-Options",
-                    "value": "nosniff"
-                },
-                {
-                    "key": "Cache-Control",
-                    "value": "public, max-age=604800, s-maxage=43200"
-                }
-            ]
+            "dest": "/public/$1",
+            "headers": {
+                "X-Content-Type-Options": "nosniff",
+                "Cache-Control": "public, max-age=604800, s-maxage=43200"
+            }
         }
     ]
 }
